@@ -21,9 +21,7 @@
             </div>
           </div>
         </div>
-
         <split />
-
         <ratingselect :ratings="ratings" :selectType="selectType" :onlyContent="onlyContent" @select="selectRating" @toggle="toggleContent"/> 
 
         <div class="rating-wrapper">

@@ -33,6 +33,7 @@
           </li>
         </ul>
       </div>
+      
       <shopcart ref="shopcart" :selectFoods="selectFoods" :deliveryPrice="seller.deliveryPrice" :minPrice="seller.minPrice"></shopcart>
     </div>
     <food @add="addFood" :food="selectedFood" ref="food"></food>
